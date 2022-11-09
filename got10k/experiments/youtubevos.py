@@ -1,7 +1,7 @@
 import os
 
-from got10k.datasets.youtubevos import YouTubeVOS
-from got10k.experiments.davis import ExperimentDAVISLike
+from got10ktoolkit.got10k.datasets.youtubevos import YouTubeVOS
+from got10ktoolkit.got10k.experiments.davis import ExperimentDAVISLike
 
 
 class ExperimentYouTubeVOS(ExperimentDAVISLike):
