@@ -2,9 +2,9 @@ import os
 import json
 import numpy as np
 
-from got10k.datasets.davis import DAVIS
-from got10k.experiments import ExperimentOTB
-from got10k.utils.metrics import rect_iou
+from got10ktoolkit.got10k.datasets.davis import DAVIS
+from got10ktoolkit.got10k.experiments import ExperimentOTB
+from got10ktoolkit.got10k.utils.metrics import rect_iou
 
 
 class ExperimentDAVISLike(ExperimentOTB):
